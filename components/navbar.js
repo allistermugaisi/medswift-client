@@ -50,7 +50,7 @@ const Navbar = () => {
 						<nav className="hidden md:flex space-x-10">
 							<a
 								href="#"
-								className="text-base font-medium text-gray-500 hover:text-gray-900"
+								className="text-base font-medium text-gray-600 hover:text-gray-900"
 							>
 								Home
 							</a>
@@ -59,7 +59,7 @@ const Navbar = () => {
 								<button
 									type="button"
 									className="
-                   group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none pb-8'
+                   group bg-white rounded-md text-gray-600 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none pb-8'
                   "
 									onMouseEnter={() => (
 										setFlyerThree(true), setFlyer(false), setFlyerTwo(false)
@@ -369,7 +369,7 @@ const Navbar = () => {
 								<button
 									type="button"
 									className="
-                   group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none pb-8'
+                   group bg-white rounded-md text-gray-600 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none pb-8'
                   "
 									onMouseEnter={() => (
 										setFlyer(true), setFlyerTwo(false), setFlyerThree(false)
@@ -632,13 +632,13 @@ const Navbar = () => {
 
 							<a
 								href="#"
-								className="text-base font-medium text-gray-500 hover:text-gray-900"
+								className="text-base font-medium text-gray-600 hover:text-gray-900"
 							>
 								Pricing
 							</a>
 							<a
 								href="#"
-								className="text-base font-medium text-gray-500 hover:text-gray-900"
+								className="text-base font-medium text-gray-600 hover:text-gray-900"
 							>
 								About
 							</a>
@@ -646,7 +646,7 @@ const Navbar = () => {
 								{/* Item active: "text-gray-900", Item inactive: "text-gray-500" */}
 								<button
 									type="button"
-									className="group bg-white rounded-md text-gray-500 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none"
+									className="group bg-white rounded-md text-gray-600 inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none"
 									onMouseEnter={() => (
 										setFlyerTwo(!flyerTwo),
 										setFlyer(false),
