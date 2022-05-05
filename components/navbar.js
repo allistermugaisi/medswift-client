@@ -505,7 +505,7 @@ const Navbar = () => {
 														Security
 													</p>
 													<p className="mt-1 text-sm text-gray-500">
-														Your customers' data will be safe and secure.
+														Your customers&apos; data will be safe and secure.
 													</p>
 												</div>
 											</a>
@@ -534,8 +534,8 @@ const Navbar = () => {
 														Integrations
 													</p>
 													<p className="mt-1 text-sm text-gray-500">
-														Connect with third-party tools that you're already
-														using.
+														Connect with third-party tools that you&apos;re
+														already using.
 													</p>
 												</div>
 											</a>
@@ -895,10 +895,12 @@ const Navbar = () => {
 						<div className="pt-5 pb-6 px-5">
 							<div className="flex items-center justify-between">
 								<div>
-									<img
+									<Image
 										className="h-8 w-auto"
 										src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
 										alt="Workflow"
+										width={50}
+										height={50}
 									/>
 								</div>
 								<div className="-mr-2">

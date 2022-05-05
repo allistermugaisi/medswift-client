@@ -11,7 +11,7 @@ const PriceSection = () => {
 							Pricing Options
 						</h2>
 						<p className="box-border mt-4 text-2xl leading-normal text-gray-900 border-solid">
-							We've got a plan for companies of any size
+							We&apos;ve got a plan for companies of any size
 						</p>
 					</div>
 					<div className="grid max-w-md mx-auto mt-6 overflow-hidden leading-7 text-gray-900 border border-b-4 border-blue-600 rounded-xl md:max-w-lg lg:max-w-none sm:mt-10 lg:grid-cols-3">
@@ -238,7 +238,7 @@ const PriceSection = () => {
 									</svg>
 								</button>
 								<p className="text-xs text-gray-500 mt-3">
-									Literally you probably haven't heard of them jean shorts.
+									Literally you probably haven&apos;t heard of them jean shorts.
 								</p>
 							</div>
 						</div>
@@ -377,7 +377,7 @@ const PriceSection = () => {
 									</svg>
 								</button>
 								<p className="text-xs text-gray-500 mt-3">
-									Literally you probably haven't heard of them jean shorts.
+									Literally you probably haven&apos;t heard of them jean shorts.
 								</p>
 							</div>
 						</div>
@@ -511,7 +511,7 @@ const PriceSection = () => {
 									</svg>
 								</button>
 								<p className="text-xs text-gray-500 mt-3">
-									Literally you probably haven't heard of them jean shorts.
+									Literally you probably haven&apos;t heard of them jean shorts.
 								</p>
 							</div>
 						</div>

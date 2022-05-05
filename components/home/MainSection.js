@@ -500,7 +500,7 @@ const MainSection = () => {
 				<div className="px-16 bg-white">
 					<div className="max-w-6xl flex flex-col items-start mx-auto lg:items-center">
 						<p className="relative flex items-start justify-start w-full text-sm sm:text-base font-bold tracking-wider text-purple-500 uppercase lg:justify-center lg:items-center">
-							Don't just take our word for it
+							Don&apos;t just take our word for it
 						</p>
 
 						<h2 className="relative flex items-start justify-start w-full max-w-3xl text-2xl sm:text-4xl font-bold lg:justify-center">
@@ -523,6 +523,7 @@ const MainSection = () => {
 										<Image
 											src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1700&amp;q=80"
 											className="object-cover w-full h-full"
+											alt="medswift"
 											width="100%"
 											height="100%"
 										/>
@@ -533,9 +534,9 @@ const MainSection = () => {
 									</div>
 								</div>
 								<blockquote className="mt-8 text-lg text-gray-500">
-									"This is a no-brainer if you want to take your business to the
-									next level. If you are looking for the ultimate toolset, this
-									is it!"
+									&quot;This is a no-brainer if you want to take your business
+									to the next level. If you are looking for the ultimate
+									toolset, this is it!&quot;
 								</blockquote>
 							</div>
 							<div className="flex flex-col items-start justify-start w-full h-auto px-0 mx-0 mb-12 border-l border-r border-transparent lg:w-1/3 lg:mb-0 lg:px-8 lg:mx-8 lg:border-gray-200">
@@ -544,6 +545,7 @@ const MainSection = () => {
 										<Image
 											src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2547&amp;q=80"
 											className="object-cover w-full h-full"
+											alt="medswift"
 											width="100%"
 											height="100%"
 										/>
@@ -554,8 +556,8 @@ const MainSection = () => {
 									</div>
 								</div>
 								<blockquote className="mt-8 text-lg text-gray-500">
-									"Thanks for creating this service. My life is so much easier.
-									Thanks for making such a great product."
+									&quot;Thanks for creating this service. My life is so much
+									easier. Thanks for making such a great product.&quot;
 								</blockquote>
 							</div>
 							<div className="flex flex-col items-start justify-start w-full h-auto lg:w-1/3">
@@ -574,8 +576,8 @@ const MainSection = () => {
 									</div>
 								</div>
 								<blockquote className="mt-8 text-lg text-gray-500">
-									"Packed with awesome content and exactly what I was looking
-									for. I would highly recommend this to anyone."
+									&quot;Packed with awesome content and exactly what I was
+									looking for. I would highly recommend this to anyone.&quot;
 								</blockquote>
 							</div>
 						</div>
