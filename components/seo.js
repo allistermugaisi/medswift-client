@@ -51,10 +51,6 @@ const SEO = ({
 				{metaData.map(({ name, content }, i) => (
 					<meta key={i} name={name} content={content} />
 				))}
-				<link
-					rel="stylesheet"
-					href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-				></link>
 			</Head>
 			<Script
 				type="module"

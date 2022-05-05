@@ -260,7 +260,7 @@ const Footer = () => {
 							</div>
 							<div className="py-14">
 								<p className="text-sm">
-									&copy; {new Date().getFullYear()} MedSwift ltd
+									&copy; {new Date().getFullYear()} MedSwift
 								</p>
 							</div>
 						</div>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const Navbar = () => {
 	const [open, setOpen] = useState(false);
@@ -13,13 +14,14 @@ const Navbar = () => {
 				<div className="container mx-auto px-4 sm:px-6">
 					<div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
 						<div className="flex justify-center lg:w-0 lg:flex-1">
-							<a href="#">
-								<span className="sr-only">MedSwift</span>
+							<a href="#" className="flex items-center">
+								{/* <span className="sr-only">MedSwift</span> */}
 								<img
 									className="h-8 w-auto sm:h-10"
 									src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
 									alt=""
 								/>
+								<span className="ml-3 text-xl">MedSwift</span>
 							</a>
 						</div>
 						<div className="-mr-2 -my-2 md:hidden">
@@ -629,13 +631,11 @@ const Navbar = () => {
 									</div>
 								</div>
 							</div>
-
-							<a
-								href="#"
-								className="text-base font-medium text-gray-600 hover:text-gray-900"
-							>
-								Pricing
-							</a>
+							<Link href="/pricing">
+								<a className="text-base font-medium text-gray-600 hover:text-gray-900">
+									Pricing
+								</a>
+							</Link>
 							<a
 								href="#"
 								className="text-base font-medium text-gray-600 hover:text-gray-900"
@@ -653,7 +653,7 @@ const Navbar = () => {
 										setFlyerThree(false)
 									)}
 								>
-									<span>More</span>
+									<span>Support</span>
 									{/*
               Heroicon name: solid/chevron-down
 
@@ -888,7 +888,7 @@ const Navbar = () => {
 				<div
 					className={
 						open
-							? 'opacity-100 scale-100 transition ease-out duration-200 absolute top-0 inset-x-0 p-2 transform origin-top-right md:hidden'
+							? 'opacity-100 scale-100 z-50 transition ease-out duration-200 absolute top-0 inset-x-0 p-2 transform origin-top-right md:hidden'
 							: 'opacity-0 scale-95 absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden'
 					}
 				>
