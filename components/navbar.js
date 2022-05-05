@@ -14,15 +14,16 @@ const Navbar = () => {
 				<div className="container mx-auto px-4 sm:px-6">
 					<div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
 						<div className="flex justify-center lg:w-0 lg:flex-1">
-							<a href="#" className="flex items-center">
-								{/* <span className="sr-only">MedSwift</span> */}
-								<img
-									className="h-8 w-auto sm:h-10"
-									src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-									alt=""
-								/>
-								<span className="ml-3 text-xl">MedSwift</span>
-							</a>
+							<Link href="/">
+								<a className="flex items-center">
+									<img
+										className="h-8 w-auto sm:h-10"
+										src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+										alt=""
+									/>
+									<span className="ml-3 text-xl">MedSwift</span>
+								</a>
+							</Link>
 						</div>
 						<div className="-mr-2 -my-2 md:hidden">
 							<button
@@ -50,12 +51,6 @@ const Navbar = () => {
 							</button>
 						</div>
 						<nav className="hidden md:flex space-x-10">
-							<a
-								href="#"
-								className="text-base font-medium text-gray-600 hover:text-gray-900"
-							>
-								Home
-							</a>
 							<div className="relative">
 								{/* Item active: "text-gray-900", Item inactive: "text-gray-500" */}
 								<button
@@ -631,17 +626,7 @@ const Navbar = () => {
 									</div>
 								</div>
 							</div>
-							<Link href="/pricing">
-								<a className="text-base font-medium text-gray-600 hover:text-gray-900">
-									Pricing
-								</a>
-							</Link>
-							<a
-								href="#"
-								className="text-base font-medium text-gray-600 hover:text-gray-900"
-							>
-								About
-							</a>
+
 							<div className="relative">
 								{/* Item active: "text-gray-900", Item inactive: "text-gray-500" */}
 								<button
@@ -653,7 +638,7 @@ const Navbar = () => {
 										setFlyerThree(false)
 									)}
 								>
-									<span>Support</span>
+									<span>Resources</span>
 									{/*
               Heroicon name: solid/chevron-down
 
@@ -863,6 +848,17 @@ const Navbar = () => {
 									</div>
 								</div>
 							</div>
+							<a
+								href="#"
+								className="text-base font-medium text-gray-600 hover:text-gray-900"
+							>
+								Company
+							</a>
+							<Link href="/pricing">
+								<a className="text-base font-medium text-gray-600 hover:text-gray-900">
+									Pricing
+								</a>
+							</Link>
 						</nav>
 						<div className="hidden md:flex items-center justify-center md:flex-1 lg:w-0">
 							<a

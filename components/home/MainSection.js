@@ -180,7 +180,7 @@ const MainSection = () => {
 							Make an Appointment To Find A Solution
 						</h1>
 						<p className="mb-8 leading-relaxed">
-							Now youcan make an appointment with your Specialist anywhere and
+							Now you can make an appointment with your Specialist anywhere and
 							anytime via online booking
 						</p>
 						<div className="flex justify-center">
