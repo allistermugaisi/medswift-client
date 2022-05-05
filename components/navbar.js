@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link';
 
 const Navbar = () => {
@@ -16,10 +17,12 @@ const Navbar = () => {
 						<div className="flex justify-center lg:w-0 lg:flex-1">
 							<Link href="/">
 								<a className="flex items-center">
-									<img
+									<Image
 										className="h-8 w-auto sm:h-10"
 										src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
-										alt=""
+										alt="medswift-logo"
+										width={60}
+										height={60}
 									/>
 									<span className="ml-3 text-xl">MedSwift</span>
 								</a>

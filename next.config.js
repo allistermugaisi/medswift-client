@@ -5,6 +5,7 @@ const nextConfig = {
 	images: {
 		domains: [
 			'res.cloudinary.com',
+			'tailwindui.com',
 			'dummyimage.com',
 			'www.scorepromotions.com',
 			's3-us-west-2.amazonaws.com',

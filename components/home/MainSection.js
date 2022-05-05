@@ -52,6 +52,7 @@ const MainSection = () => {
 							<div className="w-full h-auto overflow-hidden rounded-md shadow-xl sm:rounded-xl">
 								<Image
 									className="object-cover"
+									alt="medswift"
 									src="https://images.unsplash.com/photo-1498049860654-af1a5c566876?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
 									width={1050}
 									height={600}
