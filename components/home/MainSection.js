@@ -566,6 +566,7 @@ const MainSection = () => {
 										<Image
 											src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1256&amp;q=80"
 											className="object-cover w-full h-full"
+											alt="medswift"
 											width="100%"
 											height="100%"
 										/>
